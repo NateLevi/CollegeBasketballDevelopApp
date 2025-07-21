@@ -43,7 +43,7 @@ PORT=10000
 ### 1.5 Deploy
 - Click "Create Web Service"
 - Wait for deployment (usually 5-10 minutes)
-- Note your backend URL: `https://your-service-name.onrender.com`
+- Note your backend URL: `https://collegebbdevelopapp.onrender.com`
 
 ## 🎯 Step 2: Update Frontend Configuration
 
@@ -52,7 +52,7 @@ Edit `frontend/src/config/api.ts` and replace the production URL:
 
 ```typescript
 production: {
-  apiUrl: 'https://your-actual-render-url.onrender.com'  // Replace with your Render URL
+  apiUrl: 'https://collegebbdevelopapp.onrender.com'  // Replace with your Render URL
 }
 ```
 
@@ -62,7 +62,7 @@ Edit `backend/server.ts` and update the CORS configuration:
 ```typescript
 origin: process.env.NODE_ENV === 'production' 
   ? [
-      'https://your-actual-netlify-url.netlify.app', // Replace with your Netlify URL
+      'https://collegebbdevelopapp.netlify.app', // Replace with your Netlify URL
       'https://*.netlify.app'
     ]
 ```
@@ -92,7 +92,7 @@ Publish directory: frontend/dist
 ### 3.4 Environment Variables
 In Netlify, add this environment variable:
 - Key: `VITE_API_URL`
-- Value: `https://your-render-backend-url.onrender.com`
+- Value: `https://collegebbdevelopapp.onrender.com`
 
 ### 3.5 Deploy
 - Click "Deploy site"
