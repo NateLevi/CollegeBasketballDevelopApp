@@ -5,7 +5,7 @@ const config = {
     apiUrl: 'http://localhost:5000'
   },
   production: {
-    apiUrl: import.meta.env.VITE_API_URL || 'https://collegedevelopapp.onrender.com'
+    apiUrl: import.meta.env.VITE_API_URL || 'https://collegebbdevelopapp.onrender.com'
   }
 };
 
