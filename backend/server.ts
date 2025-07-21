@@ -12,7 +12,7 @@ const PORT = parseInt(process.env.PORT || '5000', 10);
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
     ? [
-        'https://collegedevelopapp.netlify.app', // We'll update this with your actual Netlify URL
+        'https://collegebbdevelopapp.netlify.app', // Corrected URL with 'bb'
         'https://*.netlify.app' // Allow any netlify subdomain
       ]
     : [
