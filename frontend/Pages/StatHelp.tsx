@@ -1,4 +1,3 @@
-import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '../src/components/ui/card';
 
 const StatHelp = () => {
