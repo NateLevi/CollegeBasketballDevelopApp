@@ -306,7 +306,7 @@ export default function PlayerDashboard() {
             </div>
           </div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Advanced statistical analysis for Fighting Illini recruiting and player development
+            Advanced statistical analysis for recruiting and player development
           </p>
         </div>
 
